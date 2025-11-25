@@ -5,7 +5,7 @@
 ### 📒 Description
 
 This project is a list of Elden Ring bosses, created using the open-source API from Elden Ring Fan API
-The website displays each boss in a card format with details such as name, location, description, health points, drops, and image. Users can navigate through multiple pages of bosses using Previous and Next buttons (Feature under construction).
+The website displays each boss in a card format with details such as name, location, description, health points, drops, and image. Users can navigate through multiple pages of bosses using Previous and Next buttons (Features under construction).
 
 ### 📂 Project Structure
 
