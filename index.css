@@ -29,7 +29,18 @@ li {
   width: 400px;
   margin-top: auto;
 }
+header {
+  background-color: black;
+  min-height: 100px;
+}
 
+.topnav input[type="text"] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 body {
   background-image: url("./imgs/el.jpg");
   background-size: cover;
@@ -43,6 +54,8 @@ h3 {
 }
 h1 {
   font-size: 50px;
+  text-align: center;
+  color: rgb(251, 192, 0);
 }
 
 footer div {
