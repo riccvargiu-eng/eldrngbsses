@@ -31,9 +31,19 @@ async function fetchBosses() {
 }
 
 fetchBosses();
+let currentPage = 0;
+const limit = 27;
 
 //spostarsi di pagina
-// async function changePage() {
+// async function changePage(pageNumber) {
+//   if (pageNumber < 0) return;
+//   currentPage = pageNumber;
+//   const click = await apiCall(
+//     `https://eldenring.fanapis.com/api/bosses?limit=${limit}&page=${currentPage}` //&{} serve a recuperare current page che deve essere dinamico
+//   );
+//   if (click) {
+//     ul.innerHTML = ""; // pulisci lista prima di riempire
+//     const bosses = click.data;
 
 //     bosses.forEach((boss) => {
 //       const li = document.createElement("li");
@@ -45,11 +55,21 @@ fetchBosses();
 //              <p>HealthPoints ${boss.healthPoints}</p>
 //              <p>Drops: ${boss.drops}</p>
 //           <img class="boss-image" src="${boss.image}" alt="${boss.name}">
-
 //         </div>`;
 //       ul.appendChild(li);
 //     });
 //   }
+// }
+
+// document.getElementById("next").addEventListener("click", () => {
+//   if (currentPage < 3) {
+//     changePage(currentPage + 1);
+//   }
+// });
+
+// document.getElementById("prev").addEventListener("click", () => {
+//   if (currentPage > 0) changePage(currentPage - 1);
+// });
 
 //searchbar
 
