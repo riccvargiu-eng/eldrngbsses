@@ -1,3 +1,23 @@
+header {
+  background-color: black;
+  min-height: 100px;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+button.topnav {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 .card {
   border: 2px solid black;
   background-color: rgba(160, 98, 17, 0.587);
@@ -29,18 +49,7 @@ li {
   width: 400px;
   margin-top: auto;
 }
-header {
-  background-color: black;
-  min-height: 100px;
-}
 
-.topnav input[type="text"] {
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
 body {
   background-image: url("./imgs/el.jpg");
   background-size: cover;
