@@ -2,7 +2,7 @@
 
 import { apiCall } from "./fetch.js";
 
-const API_BASE_URL = "https://eldenring.fanapis.com/api/bosses?limit=25";
+const API_BASE_URL = "https://eldenring.fanapis.com/api/bosses?limit=25&page=1";
 const ul = document.getElementById("ul");
 
 async function fetchBosses() {
