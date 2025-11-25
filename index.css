@@ -26,7 +26,12 @@ button.topnav {
   flex-wrap: wrap;
   flex-direction: column;
   width: 600px;
-  min-height: 700px;
+  min-height: 650px;
+}
+
+.card h3,
+.card p {
+  margin: 10px 0;
 }
 
 .card:hover {
@@ -48,8 +53,10 @@ li {
 
 .boss-image {
   width: 500px;
-  margin-top: 30px;
+  margin-top: auto;
+  max-height: 350px;
   align-self: center;
+  margin-bottom: 30px;
 }
 
 body {
