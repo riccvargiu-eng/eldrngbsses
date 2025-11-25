@@ -32,3 +32,23 @@ async function fetchBosses() {
 
 fetchBosses();
 
+//spostarsi di pagina
+// async function changePage() {
+
+//     bosses.forEach((boss) => {
+//       const li = document.createElement("li");
+//       li.innerHTML = `
+//         <div class="card">
+//           <h3><strong>${boss.name}</strong></h3>
+//           <p><strong>Location:</strong> ${boss.location}</p>
+//                 <p>Description: ${boss.description}</p>
+//              <p>HealthPoints ${boss.healthPoints}</p>
+//              <p>Drops: ${boss.drops}</p>
+//           <img class="boss-image" src="${boss.image}" alt="${boss.name}">
+
+//         </div>`;
+//       ul.appendChild(li);
+//     });
+//   }
+
+//searchbar
