@@ -23,9 +23,10 @@ button.topnav {
   background-color: rgba(160, 98, 17, 0.587);
   padding: 5px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  width: 500px;
-  min-height: 600px;
+  width: 600px;
+  min-height: 700px;
 }
 
 .card:hover {
@@ -46,8 +47,9 @@ li {
 }
 
 .boss-image {
-  width: 400px;
-  margin-top: auto;
+  width: 500px;
+  margin-top: 30px;
+  align-self: center;
 }
 
 body {
