@@ -9,13 +9,13 @@ The website displays each boss in a card format with details such as name, locat
 
 📂 Project Structure
 
-elden-ring-bosses/
+`elden-ring-bosses/
 ├─ imgs/
 ├─ index.html
 ├─ index.css
 ├─ script.js
 ├─ fetch.js
-└─ README.md
+└─ README.md`
 
 👌 Credits
 
