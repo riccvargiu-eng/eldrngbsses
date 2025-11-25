@@ -1,5 +1,7 @@
 //API
 
+
+
 export async function apiCall(endpoint) {
   try {
     const response = await fetch(endpoint);
