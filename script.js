@@ -2,7 +2,7 @@
 
 import { apiCall } from "./fetch.js";
 
-const API_BASE_URL = "https://eldenring.fanapis.com/api/bosses?limit=20";
+const API_BASE_URL = "https://eldenring.fanapis.com/api/bosses?limit=10";
 const ul = document.getElementById("ul");
 
 async function fetchBosses() {
@@ -19,7 +19,11 @@ async function fetchBosses() {
         <div class="card">
           <h3><strong>${boss.name}</strong></h3>
           <p><strong>Location:</strong> ${boss.location}</p>
-          <img src="${boss.image}" alt="${boss.name}" width="150">
+                <p>Description: ${boss.description}</p>
+             <p>HealthPoints ${boss.healthPoints}</p>
+             <p>Drops: ${boss.drops}</p>
+          <img class="boss-image" src="${boss.image}" alt="${boss.name}">
+
         </div>`;
       ul.appendChild(li);
     });
